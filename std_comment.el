@@ -35,9 +35,9 @@
 (defvar std-text-alist        '( (cs . "##") (cc . "## ") (ce . "##") ))
 (defvar std-fundamental-alist '( (cs . "  ") (cc . "   ") (ce . "  ") ))
 (defvar std-html-alist        '( (cs . "<!--") (cc . "  -- ") (ce . "-->")))
-(defvar std-php-alist         '( (cs . "#!/usr/local/bin/php\n<?php") (cc . "// ")(ce . "//")))
+(defvar std-php-alist         '( (cs . "//") (cc . "// ")(ce . "//")))
 (defvar std-nroff-alist       '( (cs . "\\\"") (cc . "\\\" ") (ce . "\\\"")))
-(defvar std-sscript-alist     '( (cs . "#!/bin/sh")  (cc . "## ") (ce . "##")))
+(defvar std-sscript-alist     '( (cs . "#!/usr/bin/env bash")  (cc . "## ") (ce . "##")))
 (defvar std-perl-alist        '( (cs . "#!/usr/local/bin/perl -w")  (cc . "## ")(ce . "##")))
 (defvar std-cperl-alist       '( (cs . "#!/usr/local/bin/perl -w")  (cc . "## ")(ce . "##")))
 
